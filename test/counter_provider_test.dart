@@ -9,6 +9,10 @@ void main() {
     // Arrange
     // Init counter provider
     final CounterProvider counter = CounterProvider();
+  // Mock class refs
+  late ApiUser userApi;
+  late AppRoute appRoute;
+  late AppLoading appLoading;
 
     // Act
     // Increase counter value from 0 to 1
